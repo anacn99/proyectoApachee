@@ -1,4 +1,4 @@
-Añade un DNS al docker-compose (puedes usar el que ya tienes)
+### Añade un DNS al docker-compose (puedes usar el que ya tienes)
 
 Para ello, en el docker-compose le poemos poner un contenedor para el asir_cliente, ademas le añadimos a asir_apache la IP fija.
 La añadimos el dns para que nos permita hacer el ping a dichas direcciones ip.
