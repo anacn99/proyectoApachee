@@ -6,6 +6,7 @@
    - Añadimos el contenedior par ael cliente, que es asir_bind9, le configuramos la redy los volumenes los mapeamos a  las carpetas de zonas y configuración.
  - Añadimos otro contenedor para Firefox, modificamos sus puertos, le añadimos una IP y configuramos su volumen, además le añadimos el DNS (configurada la IP con el apartado anterior).
  - Ponemos la red en external:true.
+ ![firefox](firefox.png)
  
  ### ConfApache
   - En la carpeta de sites modificamos los puertos del Virtualhost para que escuchen al puerto 80 (tenemos que hacer que el servidor de asi-apache también esté mapeando este puerto ) 
@@ -33,6 +34,8 @@
 
     maravillosas.fabulas.com
     oscuras.fabulas.com
-
-
+  - Aquí tenemos un dominio resuelto: 
+ ![imageninfo](si.png)
+  -  Aquí tenemos el otro dominio también resuelto
+ ![imagen](siii.png)
 
