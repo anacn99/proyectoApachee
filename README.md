@@ -6,6 +6,9 @@
    - Añadimos el contenedior par ael cliente, que es asir_bind9, le configuramos la redy los volumenes los mapeamos a  las carpetas de zonas y configuración.
  - Añadimos otro contenedor para Firefox, modificamos sus puertos, le añadimos una IP y configuramos su volumen, además le añadimos el DNS (configurada la IP con el apartado anterior).
  - Ponemos la red en external:true.
+
+ Aquí vemos que podemos hacer a Firefox con el localhost en el puerto 5800
+ 
  ![firefox](firefox.png)
  
  ### ConfApache
@@ -35,7 +38,10 @@
     maravillosas.fabulas.com
     oscuras.fabulas.com
   - Aquí tenemos un dominio resuelto: 
+  
  ![imageninfo](si.png)
+ 
   -  Aquí tenemos el otro dominio también resuelto
+  
  ![imagen](siii.png)
 
